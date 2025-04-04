@@ -50,3 +50,30 @@ Output: Suggested alt text: Image of dog
 - "File not found" Error: Ensure the image path and JSON key path are correct.
 - API Errors: Verify the Vision API is enabled and the service account has the right permissions.
 - No Output: Check that the image is valid and readable (e.g., .jpg, .png).
+
+## Project Structure
+
+alt_text_generator/
+├── alt_text_generator.py  # Main script
+├── vision-key.json        # Service account key (not tracked in Git)
+└── README.md              # This file
+
+## Notes
+
+- Security: Do not commit vision-key.json to Git. Add it to .gitignore:
+
+
+```
+vision-key.json
+```
+- Limitations: Alt text is truncated to 100 characters for brevity; adjust the truncate() function in the script if needed.
+
+
+## Contributing
+
+Feel free to fork this repo, tweak the code, and submit a pull request with improvements!
+
+## License
+
+This project is unlicensed—use it however you like!
+0
