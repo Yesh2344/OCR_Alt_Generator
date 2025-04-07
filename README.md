@@ -58,6 +58,16 @@ alt_text_generator/
 ├── vision-key.json        # Service account key (not tracked in Git)
 └── README.md              # This file
 
+## Notes
+
+- Security: Do not commit vision-key.json to Git. Add it to .gitignore:
+
+
+```
+vision-key.json
+```
+- Limitations: Alt text is truncated to 100 characters for brevity; adjust the truncate() function in the script if needed.
+
 
 
 ## Contributing
