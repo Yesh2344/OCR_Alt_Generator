@@ -59,7 +59,20 @@ alt_text_generator/
 └── README.md              # This file
 
 
+## Notes
 
+- Security: Do not commit vision-key.json to Git. Add it to .gitignore:
+
+
+```
+vision-key.json
+```
+- Limitations: Alt text is truncated to 100 characters for brevity; adjust the truncate() function in the script if needed.
+
+
+## Contributing
+
+Feel free to fork this repo, tweak the code, and submit a pull request with improvements!
 ## License
 
 This project is unlicensed—use it however you like!
