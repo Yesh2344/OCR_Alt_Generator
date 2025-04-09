@@ -76,5 +76,5 @@ Feel free to fork this repo, tweak the code, and submit a pull request with impr
 ## License
 
 This project is unlicensed—use it however you like!
-
+## Contact
 Would you like me to create the Python script or a .gitignore file as well?
