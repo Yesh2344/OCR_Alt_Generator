@@ -82,3 +82,4 @@ Email:yeswanthsoma83@gmail.com
 Would you like me to create the Python script or a .gitignore file as well?
 
 @YeswanthSoma
+All Copyrights Reserved
