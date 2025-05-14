@@ -19,7 +19,7 @@ This tool uses the **Google Cloud Vision API** to automatically generate alt tex
 
 ---
 
-## 3. Update the Script
+## 2. Update the Script
 
 Edit `alt_text_generator.py` to point to your JSON key file:
 
