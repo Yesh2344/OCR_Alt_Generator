@@ -17,6 +17,15 @@ This tool uses the **Google Cloud Vision API** to automatically generate alt tex
    - Place the JSON file in a secure location (e.g., `/path/to/vision-key.json`).
 
 
+Edit `alt_text_generator.py` to point to your JSON key file:
+
+```python
+from google.oauth2 import service_account
+
+credentials = service_account.Credentials.from_service_account_file(
+    "/path/to/vision-key.json"  # Replace with your actual path
+)
+```
 ---
 
 ## 2. Update the Script
