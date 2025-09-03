@@ -21,7 +21,7 @@ This tool uses the **Google Cloud Vision API** to automatically generate alt tex
 
 ## 2. Update the Script
 
-Edit `alt_text_generator.py` to point to your JSON key file:
+
 
 ```python
 from google.oauth2 import service_account
