@@ -3,6 +3,7 @@
 This tool uses the **Google Cloud Vision API** to automatically generate alt text for images.
 
 ---
+## 1. Set Up Google Cloud Vision API
 
 1. **Go to the [Google Cloud Console](https://console.cloud.google.com/).**
 2. **Create a project** (or use an existing one).
