@@ -1,4 +1,3 @@
-# Automatic Alt Text Generator
 
 This tool uses the **Google Cloud Vision API** to automatically generate alt text for images.
 
