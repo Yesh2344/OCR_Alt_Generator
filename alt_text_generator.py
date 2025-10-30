@@ -59,6 +59,7 @@ def analyze_image(image_path):
         raise Exception(f"Label detection failed: {e}")
 
     return extracted_text, labels
+# Added comment
 
 def main():
     """Handle the command-line vibes and run the show."""
