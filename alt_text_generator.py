@@ -15,6 +15,7 @@ def truncate(text, max_length=100):
 def generate_alt_text(text, labels):
     """Make alt text from text and labels."""
     if text and labels:
+# Added comment
         return f"Image containing the text '{truncate(text)}' and depicting {', '.join(labels[:3])}"
     elif text:
         return f"Image with text: '{truncate(text)}'"
