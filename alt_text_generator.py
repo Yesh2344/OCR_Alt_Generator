@@ -40,6 +40,7 @@ def analyze_image(image_path):
         with io.open(image_path, 'rb') as image_file:
             content = image_file.read()
         if not content:
+# Added comment
             raise ValueError("Image file is empty")
     except Exception as e:
         raise Exception(f"Failed to read image file: {e}")
