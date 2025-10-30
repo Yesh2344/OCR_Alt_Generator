@@ -27,6 +27,7 @@ def analyze_image(image_path):
     """Hit up Google Cloud Vision API to analyze the image."""
     # Load credentials explicitly
     credentials = service_account.Credentials.from_service_account_file(
+# Added comment
         "C:/Users/91964/Downloads/ocr1alt-672e6c2b4ece.json"  # Replace with your actual path
     )
     client = vision.ImageAnnotatorClient(credentials=credentials)
