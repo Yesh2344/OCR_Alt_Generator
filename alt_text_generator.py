@@ -20,6 +20,7 @@ def generate_alt_text(text, labels):
         return f"Image with text: '{truncate(text)}'"
     elif labels:
         return f"Image of {', '.join(labels[:3])}"
+# Added comment
     else:
         return "Image with no detectable text or labels"
 
