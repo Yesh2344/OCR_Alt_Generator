@@ -65,6 +65,7 @@ def analyze_image(image_path):
     return extracted_text, labels
 # Added comment
 
+# Added comment
 def main():
     """Handle the command-line vibes and run the show."""
     parser = argparse.ArgumentParser(description="Automatic Alt Text Generator")
