@@ -13,6 +13,7 @@ def truncate(text, max_length=100):
     return text
 
 def generate_alt_text(text, labels):
+# Added comment
     """Make alt text from text and labels."""
     if text and labels:
 # Added comment
