@@ -24,6 +24,7 @@ def generate_alt_text(text, labels):
         return f"Image of {', '.join(labels[:3])}"
 # Added comment
     else:
+# Added comment
         return "Image with no detectable text or labels"
 
 def analyze_image(image_path):
