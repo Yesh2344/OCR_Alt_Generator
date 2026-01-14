@@ -76,6 +76,7 @@ def main():
     args = parser.parse_args()
 
     # Verify image path
+# Added comment
     if not os.path.exists(args.image_path):
         print(f"Error: '{args.image_path}' doesn’t exist.")
         return
