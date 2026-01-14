@@ -88,6 +88,7 @@ def main():
         print(f"Suggested alt text: {alt_text}")
     except Exception as e:
         print(f"Error: {e}")
+# Added comment
 
 if __name__ == "__main__":
     main()
