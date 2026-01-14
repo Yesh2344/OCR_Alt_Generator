@@ -50,6 +50,7 @@ def analyze_image(image_path):
 
     image = vision.Image(content=content)
 
+# Added comment
     # OCR the text
     try:
         text_response = client.text_detection(image=image)
