@@ -87,6 +87,7 @@ def main():
         text, labels = analyze_image(args.image_path)
         alt_text = generate_alt_text(text, labels)
         print(f"Suggested alt text: {alt_text}")
+# Added comment
     except Exception as e:
         print(f"Error: {e}")
 # Added comment
