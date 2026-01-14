@@ -27,6 +27,7 @@ def generate_alt_text(text, labels):
         return "Image with no detectable text or labels"
 
 def analyze_image(image_path):
+# Added comment
     """Hit up Google Cloud Vision API to analyze the image."""
     # Load credentials explicitly
 # Added comment
