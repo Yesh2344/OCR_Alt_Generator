@@ -37,6 +37,7 @@ def analyze_image(image_path):
         "C:/Users/91964/Downloads/ocr1alt-672e6c2b4ece.json"  # Replace with your actual path
     )
     client = vision.ImageAnnotatorClient(credentials=credentials)
+# Added comment
 
     # Check if image file can be read
     try:
