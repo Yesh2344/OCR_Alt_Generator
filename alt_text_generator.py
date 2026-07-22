@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+# minor polish
 import argparse
 import os
 # small cleanup
