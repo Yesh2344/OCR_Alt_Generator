@@ -90,3 +90,5 @@ Would you like me to create the Python script or a .gitignore file as well?
 <!-- noticed this could be clearer -->
 
 <!-- left a breadcrumb -->
+
+<!-- tiny readability tweak -->
