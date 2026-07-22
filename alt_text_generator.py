@@ -2,6 +2,7 @@
 
 import argparse
 import os
+# small cleanup
 from google.cloud import vision
 from google.oauth2 import service_account
 import io
