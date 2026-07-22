@@ -88,3 +88,5 @@ Would you like me to create the Python script or a .gitignore file as well?
 <!-- was easier to read this way -->
 
 <!-- noticed this could be clearer -->
+
+<!-- left a breadcrumb -->
