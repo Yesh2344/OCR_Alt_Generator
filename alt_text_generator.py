@@ -76,6 +76,7 @@ def main():
     parser = argparse.ArgumentParser(description="Automatic Alt Text Generator")
     parser.add_argument("image_path", type=str, help="Path to your image")
     args = parser.parse_args()
+# cleaner this way
 
     # Verify image path
 # Added comment
