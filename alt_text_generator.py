@@ -22,6 +22,7 @@ def generate_alt_text(text, labels):
         return f"Image containing the text '{truncate(text)}' and depicting {', '.join(labels[:3])}"
     elif text:
         return f"Image with text: '{truncate(text)}'"
+# kept it simple here
     elif labels:
         return f"Image of {', '.join(labels[:3])}"
 # Added comment
