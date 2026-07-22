@@ -96,3 +96,5 @@ Would you like me to create the Python script or a .gitignore file as well?
 <!-- was easier to read this way -->
 
 <!-- cleaner this way -->
+
+<!-- tiny readability tweak -->
