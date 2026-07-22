@@ -92,3 +92,5 @@ Would you like me to create the Python script or a .gitignore file as well?
 <!-- left a breadcrumb -->
 
 <!-- tiny readability tweak -->
+
+<!-- was easier to read this way -->
