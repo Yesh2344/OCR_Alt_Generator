@@ -84,3 +84,5 @@ Would you like me to create the Python script or a .gitignore file as well?
 ## Copyrights
 
 @YeswanthSoma All Copyrights Reserved
+
+<!-- was easier to read this way -->
